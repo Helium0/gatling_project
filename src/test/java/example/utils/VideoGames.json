@@ -1,0 +1,37 @@
+[
+  {
+    "category": "RPG",
+    "name": "Gothic",
+    "rating": "Mature",
+    "releaseDate": "2000-05-04",
+    "reviewScore": 85
+  },
+  {
+    "category": "Shooter",
+    "name": "Medal Of Honor",
+    "rating": "Mature",
+    "releaseDate": "1998-05-04",
+    "reviewScore": 95
+  },
+  {
+    "category": "Tactic",
+    "name": "Age Of Empires II",
+    "rating": "Mature",
+    "releaseDate": "2002-05-04",
+    "reviewScore": 99
+  },
+  {
+    "category": "Fun & Play",
+    "name": "Rayman 3",
+    "rating": "Kids",
+    "releaseDate": "2009-05-04",
+    "reviewScore": 96
+  },
+  {
+    "category": "Fantasy",
+    "name": "Final Fantasy X",
+    "rating": "Mature",
+    "releaseDate": "2010-05-04",
+    "reviewScore": 97
+  }
+]
