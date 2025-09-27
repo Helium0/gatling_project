@@ -9,7 +9,7 @@ public class Helper {
 
     public static Session videoGameId(Session session, String list, String gameId) {
         List<Integer> allGamesVideoId = session.getList(list);
-        if (!allGamesVideoId.isEmpty() && allGamesVideoId != null) {
+        if (allGamesVideoId != null && !allGamesVideoId.isEmpty()) {
             Random random = new Random();
             Integer randomId = allGamesVideoId.get(random.nextInt(allGamesVideoId.size()));
             return session.set(gameId, randomId);
