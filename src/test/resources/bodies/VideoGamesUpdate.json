@@ -1,0 +1,30 @@
+[
+  {
+    "category": "TEST",
+    "name": "GRA_TEST_1",
+    "rating": "Mature",
+    "releaseDate": "2000-05-04",
+    "reviewScore": 1000
+  },
+  {
+    "category": "TEST",
+    "name": "GRA_TEST_2",
+    "rating": "Mature",
+    "releaseDate": "2000-05-04",
+    "reviewScore": 2000
+  },
+  {
+    "category": "TEST",
+    "name": "GRA_TEST_3",
+    "rating": "Mature",
+    "releaseDate": "2000-05-04",
+    "reviewScore": 3000
+  },
+  {
+    "category": "TEST",
+    "name": "GRA_TEST_4",
+    "rating": "Mature",
+    "releaseDate": "2000-05-04",
+    "reviewScore": 4000
+  }
+]
