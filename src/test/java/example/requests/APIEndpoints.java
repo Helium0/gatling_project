@@ -1,9 +1,8 @@
 package example.requests;
 
-import example.utils.ReadingProperties;
+import example.utils.Config;
 import io.gatling.javaapi.core.*;
 import io.gatling.javaapi.http.*;
-import java.io.IOException;
 import java.util.stream.Collectors;
 
 import static io.gatling.javaapi.core.CoreDsl.*;
@@ -15,11 +14,7 @@ public class APIEndpoints extends Simulation {
     public static final HttpProtocolBuilder httpProtocol;
 
     static {
-        try {
-            httpProtocol = http.baseUrl(ReadingProperties.getFileValue("baseUrl"));
-        } catch (IOException e) {
-            throw new RuntimeException("Failed to load base URL", e);
-        }
+            httpProtocol = http.baseUrl(Config.getBaseUrl());
     }
 
     public static  HttpRequestActionBuilder getAllVideoGamesRequest() {
